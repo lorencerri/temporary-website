@@ -42,9 +42,7 @@ const Home = () => (
         either email or Twitter direct messages.
       </small>
     </div>
-    <br></br>
-    <hr></hr>
-    <header style={{ marginBottom: `1.5rem` }}>
+    <header style={{ margin: `1.5rem 0 1.5rem 0` }}>
       <h4 style={{ display: `inline`, color: "lavenderblush" }}>
         Our Projects
       </h4>
