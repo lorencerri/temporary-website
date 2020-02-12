@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const ListLink = props => (
   <li
@@ -9,8 +10,16 @@ const ListLink = props => (
   </li>
 )
 
+const helmet = (
+  <Helmet>
+    <meta charSet="utf-8" />
+    <title>Plexi Development</title>
+  </Helmet>
+)
+
 const Home = () => (
   <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+    {helmet}
     <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
         <h3 style={{ display: `inline`, color: "lavenderblush" }}>
