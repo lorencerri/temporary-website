@@ -3,9 +3,7 @@ import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 const ListLink = props => (
-  <li
-    style={{ textShadow: `none`, display: `inline-block`, marginRight: `1rem` }}
-  >
+  <li style={{ marginRight: `1rem` }}>
     <a href={props.to}>{props.children}</a>
   </li>
 )
@@ -21,7 +19,7 @@ const Home = () => (
   <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
     {helmet}
     <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+      <Link to="/" style={{ backgroundImage: `none` }}>
         <h3 style={{ display: `inline`, color: "lavenderblush" }}>
           Plexi Development
         </h3>
