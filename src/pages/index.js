@@ -21,7 +21,7 @@ const Home = () => (
     style={{
       margin: `3rem auto`,
       maxWidth: 650,
-      padding: `1rem`,
+      padding: `0 1rem`,
     }}
   >
     {helmet}
