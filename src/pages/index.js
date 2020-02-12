@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 const ListLink = props => (
@@ -26,11 +25,9 @@ const Home = () => (
   >
     {helmet}
     <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/" style={{ backgroundImage: `none` }}>
-        <h3 style={{ display: `inline`, color: "lavenderblush" }}>
-          Plexi Development
-        </h3>
-      </Link>
+      <h3 style={{ display: `inline`, color: "lavenderblush" }}>
+        Plexi Development
+      </h3>
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="https://discord.gg/plexidev">Discord</ListLink>
         <ListLink to="https://youtube.com/c/TrueXPixels">YouTube</ListLink>
@@ -45,6 +42,22 @@ const Home = () => (
         either email or Twitter direct messages.
       </small>
     </div>
+    <br></br>
+    <hr></hr>
+    <header style={{ marginBottom: `1.5rem` }}>
+      <h4 style={{ display: `inline`, color: "lavenderblush" }}>
+        Our Projects
+      </h4>
+    </header>
+    <small>
+      <ul style={{ listStyle: `none` }}>
+        <ListLink to="https://top.gg/bot/captcha">
+          Server Captcha Bot for Discord
+        </ListLink>
+        <ListLink to="https://npmjs.org/quick.db">Quick.db</ListLink>
+        <ListLink to="https://npmjs.org/quick.hook">Quick.hook</ListLink>
+      </ul>
+    </small>
   </div>
 )
 
