@@ -14,7 +14,7 @@ module.exports = {
         short_name: `plexidev`,
         start_url: `/`,
         display: `standalone`,
-        icon: `static/favicon.ico`,
+        icon: `static/logo.png`,
       },
     },
   ],
