@@ -39,7 +39,7 @@ const Home = () => (
       <small style={{ color: "grey" }}>
         We're a community centered around writing open source packages and
         applications. If you'd like to get in contact with us, we recommend
-        either email or Twitter direct messages.
+        either email (<i>hello@plexidev.org</i>) or Twitter direct messages.
       </small>
     </div>
     <header style={{ margin: `1.5rem 0 1.5rem 0` }}>
