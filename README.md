@@ -1,3 +1,3 @@
-Static website for Plexi Development
+#### Static website for Plexi Development
 
-Join our [Discord](https://discord.gg/plexidev)
+**This repository has continuous integration to https://plexidev.org via Netlify.**
