@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 
 const ListLink = props => (
   <li style={{ marginRight: `1rem` }}>
-    <a href={props.to}>{props.children}</a>&nbsp;
+    <a href={props.to}>{props.children}</a>
   </li>
 )
 
