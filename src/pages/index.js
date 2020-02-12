@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 
 const ListLink = props => (
   <li style={{ marginRight: `1rem` }}>
-    <a href={props.to}>{props.children}</a>
+    <a href={props.to}>{props.children}</a>&nbsp;
   </li>
 )
 
@@ -17,7 +17,13 @@ const helmet = (
 )
 
 const Home = () => (
-  <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
+  <div
+    style={{
+      margin: `3rem auto`,
+      maxWidth: 650,
+      padding: `1rem`,
+    }}
+  >
     {helmet}
     <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/" style={{ backgroundImage: `none` }}>
@@ -32,7 +38,13 @@ const Home = () => (
         <ListLink to="https://github.com/plexidev">GitHub</ListLink>
       </ul>
     </header>
-    <p style={{ color: "lavenderblush" }}>Coming soon...</p>
+    <div style={{ maxWidth: "75%" }}>
+      <small style={{ color: "grey" }}>
+        We're a community centered around writing open source packages and
+        applications. If you'd like to get in contact with us, we recommend
+        either email or Twitter direct messages.
+      </small>
+    </div>
   </div>
 )
 
