@@ -11,7 +11,6 @@ const helmet = (
   <Helmet>
     <meta charSet="utf-8" />
     <title>Plexi Development</title>
-    <link rel="shortcut icon" href="/favicon.ico"></link>
   </Helmet>
 )
 

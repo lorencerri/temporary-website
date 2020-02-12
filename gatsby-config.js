@@ -7,5 +7,15 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Plexi Development`,
+        short_name: `plexidev`,
+        start_url: `/`,
+        display: `standalone`,
+        icon: `static/favicon.ico`,
+      },
+    },
   ],
 }
