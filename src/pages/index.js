@@ -30,7 +30,7 @@ const Home = () => (
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="https://discord.gg/plexidev">Discord</ListLink>
         <ListLink to="https://youtube.com/c/TrueXPixels">YouTube</ListLink>
-        <ListLink to="https://twitter.com/twitter">Twitter</ListLink>
+        <ListLink to="https://twitter.com/plexidev">Twitter</ListLink>
         <ListLink to="https://github.com/plexidev">GitHub</ListLink>
       </ul>
     </header>
