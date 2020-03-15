@@ -32,6 +32,9 @@ const Home = () => (
         <ListLink to="https://youtube.com/c/TrueXPixels">YouTube</ListLink>
         <ListLink to="https://twitter.com/plexidev">Twitter</ListLink>
         <ListLink to="https://github.com/plexidev">GitHub</ListLink>
+        <ListLink to="https://forms.gle/ZXJ6A2GYAgvgZnBK6">
+          <font style={{ color: "red" }}>Unban Requests</font>
+        </ListLink>
       </ul>
     </header>
     <div style={{ maxWidth: "75%" }}>
