@@ -33,7 +33,7 @@ const Home = () => (
         <ListLink to="https://twitter.com/plexidev">Twitter</ListLink>
         <ListLink to="https://github.com/plexidev">GitHub</ListLink>
         <ListLink to="https://forms.gle/ZXJ6A2GYAgvgZnBK6">
-          <font style={{ color: "red" }}>Unban Requests</font>
+          <font style={{ color: "red" }}>Appeals</font>
         </ListLink>
       </ul>
     </header>
