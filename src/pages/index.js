@@ -63,8 +63,8 @@ const Home = () => (
         Data Deletion
       </h4>
     </header>
-    <small>
-      You can request the deletion of your data by sending an email to support@plexidev.org.
+    <small style={{ color: "grey" }}>
+      You can request the deletion of your data for <b>Server Captcha Bot</b> by sending an email to support@plexidev.org.
     </small>
   </div>
 )
