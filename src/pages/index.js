@@ -58,6 +58,14 @@ const Home = () => (
         <ListLink to="https://npmjs.org/quick.hook">Quick.hook</ListLink>
       </ul>
     </small>
+    <header style={{ margin: `1.5rem 0 1.5rem 0` }}>
+      <h4 style={{ display: `inline`, color: "lavenderblush" }}>
+        Data Deletion
+      </h4>
+    </header>
+    <small>
+      You can request the deletion of your data by sending an email to support@plexidev.org.
+    </small>
   </div>
 )
 
