@@ -65,6 +65,7 @@ const Home = () => (
     </header>
     <small style={{ color: "grey" }}>
       You can request the deletion of your data for <b>Server Captcha Bot</b> by sending an email to support@plexidev.org. We store the following information:
+      <br>
       <ul>
           <li>Guild Configurations</li>
           <li>Which guild you completed a Captcha for</li>
